@@ -303,9 +303,11 @@
   }
 
   .demo-notice {
+    transform: scale(1.3);
   position: fixed;
   top: 20px;
   right: 20px;
+  margin-right: 50px;
   z-index: 9999;
 
   display: flex;
