@@ -301,3 +301,45 @@
     .event-link{grid-column:2;}
     .stats-grid{grid-template-columns:1fr;}
   }
+
+  .demo-notice {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  max-width: 320px;
+  padding: 10px 12px 10px 14px;
+
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #444;
+}
+
+.demo-notice button {
+  flex-shrink: 0;
+
+  border: 0;
+  background: transparent;
+
+  font-size: 20px;
+  line-height: 1;
+  color: #777;
+
+  cursor: pointer;
+}
+
+.demo-notice button:hover {
+  color: #111;
+}
